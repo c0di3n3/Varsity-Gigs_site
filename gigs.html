@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse gigs | Varsity Gigs</title>
+  <meta name="description" content="See examples of the kind of student work Varsity Gigs is piloting in South Africa: events, tutoring, promotions, admin, creative and hospitality.">
+  <meta name="theme-color" content="#163B47">
+  <meta property="og:title" content="Browse gigs | Varsity Gigs">
+  <meta property="og:description" content="Examples of the kind of student work we are piloting in South Africa.">
+  <meta property="og:image" content="assets/logo-full.webp">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Varsity Gigs home">
+        <img src="assets/logo-mark.svg" alt="" width="40" height="36">
+        <span>Varsity<span>Gigs</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gigs.html" aria-current="page">Browse gigs</a></li>
+          <li><a href="organisers.html">For organisers</a></li>
+        </ul>
+        <a class="btn btn-primary btn-small" href="https://tally.so/r/q54a08" target="_blank" rel="noopener">Sign up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero page-hero">
+      <div class="wrap">
+        <span class="pill">Early-stage pilot</span>
+        <h1>Browse gigs</h1>
+        <p class="lead">A look at the kind of work we are lining up for students. Filter by category to see what interests you.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gigs-heading">
+      <div class="wrap">
+        <div class="notice" style="margin-bottom: 36px;">
+          <h2>These are examples, not live listings</h2>
+          <p>We are an early-stage pilot and do not have a public list of open gigs yet. The cards below show the kind of work we are aiming for. Real gigs go to students on our sign-up list first, with the pay, date and place confirmed before you commit.</p>
+        </div>
+
+        <h2 id="gigs-heading">Example gigs</h2>
+        <div class="filters" id="gig-filters" role="group" aria-label="Filter gigs by category"></div>
+        <p class="result-count" id="gig-count" aria-live="polite"></p>
+        <div class="grid grid-3" id="gig-list"></div>
+        <noscript>
+          <p class="empty-state">Turn on JavaScript to see and filter the example gigs. You can still <a href="https://tally.so/r/q54a08">sign up for the pilot</a>.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section section-dark cta" aria-labelledby="cta-heading">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="cta-heading">Want to hear about real gigs?</h2>
+          <p>Sign up and tell us what you are keen on. We will be in touch when something suitable comes in.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://tally.so/r/q54a08" target="_blank" rel="noopener">Sign up for the pilot</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer has-rule">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="Varsity Gigs home">
+            <img src="assets/logo-mark.svg" alt="" width="40" height="36">
+            <span>Varsity<span>Gigs</span></span>
+          </a>
+          <p>A student work platform in South Africa. We are an early-stage pilot, still small and still learning.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gigs.html">Browse gigs</a></li>
+          <li><a href="organisers.html">For organisers</a></li>
+          <li><a href="https://tally.so/r/q54a08" target="_blank" rel="noopener">Sign up</a></li>
+        </ul>
+      </div>
+      <p class="footer-bottom">&copy; <span id="year">2026</span> Varsity Gigs. Real opportunities. Student ready.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gigs.js"></script>
+</body>
+</html>
